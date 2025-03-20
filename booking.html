@@ -9,23 +9,26 @@
      <body>
         <h1>Gym Booking</h1>
 
-        <div clas="container">
-            <div id="date">Gym time</div>
-            <div id="name">Gym name</div>
-            <div id="available">Gym place availability</div>
-            <div id="date">10:00</div>
-            <div id="name">Pilates</div>
-            <div id="available">5</div>
-            <div id="date">12:00</div>
-            <div id="name">Sumo wrestling</div>
-            <div id="available">7</div>
-            <div id="date">17:00</div>
-            <div id="name">Badminton</div>
-            <div id="available">3</div>
-        </div>
+        <table style="width: 30%;">
+            <tr>
+                <th>Date of session</th>
+                <th>Name of gym activity</th>
+                <th>Available places</th>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td>Pilates</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>12:00</td>
+                <td>Sumo wrestling</td>
+                <td>9</td>
+            </tr>
+        </table>
 
-        <button id="button">Name</button>
-        <input id="nameInput" type="text" placeholder="Enter name of gym activity">
+        <button id="button">Submit</button>
+        <input id="nameInput" type="text">
 
      </body>
      <script src="booking.js"></script>

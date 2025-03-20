@@ -5,7 +5,7 @@ let input = document.getElementById('nameInput');
 button = document.getElementById('button');
 
 button.addEventListener('click', () => {
-    
+    console.log(input.value)
 
 })
-
+ // When button is clicked, the input creates a new entry in the table 
